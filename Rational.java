@@ -38,8 +38,12 @@ public class Rational {
     }
     
     public void divide(Rational other) {
-        this.numerator *= other.denominator;
-        this.denominator *= other.numerator;
+    	if (other.numerator == 0) {
+        	this.numerator *= other.denominator;
+        	this.denominator *= other.numerator;
+    	} else {
+    		System.out.println("Cannot divide by 0.")
+    	}
     }
     
     public static void main(String[] args) {
