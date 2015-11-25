@@ -1,7 +1,7 @@
-// Team Unown -- Andrew Lin, Owen Zeng
+// Team Sesame Street - Richard Wang, Andrew Lin
 // APCS1 pd9
-// HW33 -- Do you even add, bro?
-// 2015-11-18
+// HW37 -- Rational Equality
+// 2015-11-24
 
 public class Rational {
     public int numerator;
